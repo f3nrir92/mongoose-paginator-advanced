@@ -1,0 +1,54 @@
+{
+  "name": "mongoose-paginator-advanced",
+  "version": "0.5.0",
+  "description": "Pagination plugin for ORM Mongoose based on mongoose-paginator-simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "coverage": "istanbul cover _mocha -- -R spec ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3nrir92/mongoose-paginator-advanced.git"
+  },
+  "keywords": [
+    "aggregation",
+    "mongoose",
+    "mongodb",
+    "mongo",
+    "mongoose-paginator",
+    "mongoose-paginate",
+    "mongoose-pager",
+    "pagination",
+    "paginate",
+    "paginator",
+    "paging",
+    "page",
+    "sort",
+    "limit",
+    "skip",
+    "offset",
+    "criteria",
+    "query",
+    "plugin"
+  ],
+  "author": "Alex Tabaksyurov <f3nrir92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f3nrir92/mongoose-paginator-advanced/issues"
+  },
+  "homepage": "https://github.com/f3nrir92/mongoose-paginator-advanced",
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "codeclimate-test-reporter": "^0.3.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.2"
+  },
+  "dependencies": {
+    "util": "^0.10.3"
+  }
+}
